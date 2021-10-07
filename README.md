@@ -1,2 +1,1 @@
-# zen-garden-china
-This is a zen garden design made with a Chinese theme
+A repo for Team 5
