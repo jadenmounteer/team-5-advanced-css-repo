@@ -1,0 +1,36 @@
+header {
+    text-align: center;
+}
+
+// Media queries
+@media (min-width: 50em){
+    // Add a 3 collumn grid
+    .page-wrapper {
+        display: grid;
+        grid-template-columns: 10% 70% 20%;
+        grid-template-rows: 21% 79%;
+        grid-gap: 2em;
+    }   
+    
+    
+
+    // Position the header within the grid
+    
+
+    .intro{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .main {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .sidebar {
+        grid-column: 3/4;
+
+    }
+    
+
+}

@@ -1,0 +1,19 @@
+// Colors
+$sun-color: #f02228;
+$top-sky-color: #852425;
+$middle-sky-color: #be2225;
+$bottom-sky-color: #da1d24;
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+    
+// Import the modularized Sass parials
+@import "layout/grid.scss";
+@import "background.scss";
