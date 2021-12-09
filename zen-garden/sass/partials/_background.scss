@@ -4,13 +4,18 @@ html {
 
 body {
     // Make the buildings and the sky background color
-    background-image: url("assets/red-backdrop-large-cropped.png"), linear-gradient($top-sky-color, $middle-sky-color , $bottom-sky-color);
+    background-image: url("assets/red-backdrop-small.png"), linear-gradient($top-sky-color, $middle-sky-color , $bottom-sky-color);
     background-repeat: no-repeat;
     // Make it stick
     //background-attachment: fixed;
     background-position: center bottom;
-    
-    // Give the body a bottom border to get rid of the pesky line
-    //border-bottom: 200px solid black;
+
+    // Resize the image as the screen gets larger
+    @include breakpoint(medium) {
+        background-image: url("assets/red-backdrop-medium.png"), linear-gradient($top-sky-color, $middle-sky-color , $bottom-sky-color);
+      }
+    @include breakpoint(large) {
+        background-image: url("assets/red-backdrop-large-cropped.png"), linear-gradient($top-sky-color, $middle-sky-color , $bottom-sky-color);
+      }
     
 }

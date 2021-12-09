@@ -1,3 +1,57 @@
 .sidebar { 
-    background-image: url("assets/parchment.jpeg");
+    //background-image: url("assets/parchment.jpeg");
+    //background-image: linear-gradient($top-sky-color, $middle-sky-color , $bottom-sky-color);
+    background-color: $top-sky-color;
+    position: absolute;
+    width: 350px;
+    height: 0px;
+    /*
+    left: 0%;
+    top: 340%;
+    */
+    //left: 0%;
+    //top: 340%;
+    margin-top: 50px;
+    //margin-left: 5px;
+
+    //background-color: green;
+    padding-bottom: 400px;
+    margin-left: 0%;
+    border-radius: 50%;
+    //text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sidebar > .wrapper {
+    font-size: 0.65em;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+@media only screen and (min-width: 400px) {
+    .sidebar {
+        margin-left: 10%;
+    }
+  }
+
+@media only screen and (min-width: 500px) {
+    .sidebar {
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .sidebar {
+        margin-left: 25%;
+    }
+}
+
+// When the grid appears
+@media (min-width: 50em){
+    .sidebar {
+        
+    }
 }

@@ -10,6 +10,15 @@ $background-top-color: #842225;
 $background-top--middle-color: #da1d24;
 $background-middle-color:#be2225; 
 $background-bottom-color: #842225;
+
+
+// Fonts 
+
+// Breakpoints
+$break-large: 1700px;
+$break-medium: 950px;
+$break-small: 510px;
+
 html {
 	margin: 0;
 	padding: 0;
@@ -18,9 +27,11 @@ html {
 body {
     margin: 0 auto;
     max-width: 1000px;
+    padding-bottom: 700px;
 }
     
 // Import the modularized Sass parials
+@import "layout/mixins.scss";
 @import "layout/grid.scss";
 @import "partials/background.scss";
 @import "partials/sidebar.scss";
