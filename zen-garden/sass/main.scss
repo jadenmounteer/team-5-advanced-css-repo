@@ -4,22 +4,22 @@ $top-sky-color: #F1D7A7;
 $middle-sky-color: #f8ebd3;
 $bottom-sky-color: #FCF7ED;
 $bottom-bottom-sky-color: #842225;
-
 // HTML gradient
 $background-top-color: #842225;
 $background-top--middle-color: #da1d24;
-$background-middle-color:#be2225; 
+$background-middle-color:#be2225;
 $background-bottom-color: #842225;
 html {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    animation: changeColor 1s;
 }
 
 body {
     margin: 0 auto;
     max-width: 1000px;
 }
-    
+
 // Import the modularized Sass parials
 @import "layout/grid.scss";
 @import "partials/background.scss";

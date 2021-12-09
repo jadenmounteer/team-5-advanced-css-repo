@@ -1,4 +1,4 @@
-// The rising sun animation
+/* // The rising sun animation
 @keyframes moving {
     0% {
         fill: rgba(121, 26, 9, 1);
@@ -35,3 +35,13 @@
     }
 }
 
+ */
+
+@keyframes changeColor {
+    0% {
+        color: $bottom-sky-color;
+    }
+    100% {
+        color: black;
+    }
+}
