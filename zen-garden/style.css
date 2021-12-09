@@ -46,7 +46,8 @@ body {
     background-image: url("assets/parchment.jpeg");
 }
 
-@keyframes moving {
+
+/* @keyframes moving {
     0% {
         fill: #791a09;
     }
@@ -84,7 +85,7 @@ body {
 
 circle {
     animation: moving 40s linear infinite;
-}
+} */
 
 
 /*# sourceMappingURL=style.css.map */

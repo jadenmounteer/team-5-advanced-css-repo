@@ -9,15 +9,40 @@ $background-top-color: #842225;
 $background-top--middle-color: #da1d24;
 $background-middle-color:#be2225;
 $background-bottom-color: #842225;
+//Typography styles
+$titles-typography: 'Akronim',
+cursive;
+$paragraph-typography: 'Raleway',
+sans-serif;
+$title-side-typography:'Cabin Sketch',
+cursive;
+$paragraph-side-typography: 'Coming Soon',
+cursive;
 html {
     margin: 0;
     padding: 0;
-    animation: changeColor 1s;
 }
 
 body {
     margin: 0 auto;
     max-width: 1000px;
+}
+
+h1,
+h2 {
+    font-family: $titles-typography;
+}
+
+h3 {
+    font-family: $title-side-typography;
+}
+
+p {
+    font-family: $paragraph-typography;
+}
+
+a {
+    font-family: $paragraph-side-typography;
 }
 
 // Import the modularized Sass parials
