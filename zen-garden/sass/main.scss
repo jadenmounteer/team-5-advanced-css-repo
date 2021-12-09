@@ -9,6 +9,7 @@ $background-top-color: #842225;
 $background-top--middle-color: #da1d24;
 $background-middle-color:#be2225;
 $background-bottom-color: #842225;
+$black-color: #000000;
 //Typography styles
 $titles-typography: 'Akronim',
 cursive;
@@ -26,6 +27,16 @@ html {
 body {
     margin: 0 auto;
     max-width: 1000px;
+    animation: change 5s;
+}
+
+@keyframes change {
+    0% {
+        color: $bottom-sky-color;
+    }
+    100% {
+        color: $black-color;
+    }
 }
 
 h1,
