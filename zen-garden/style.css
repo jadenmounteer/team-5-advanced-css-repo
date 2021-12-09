@@ -1,22 +1,44 @@
 html {
-  margin: 0;
-  padding: 0; }
+    margin: 0;
+    padding: 0;
+}
 
 body {
+<<<<<<< HEAD
   margin: 0 auto;
   max-width: 1000px;
   padding-bottom: 700px; }
+=======
+    margin: 0 auto;
+    max-width: 1000px;
+}
+>>>>>>> af780e7963458085ae4e2dd3f354e8f7778d142f
 
 header {
-  text-align: center; }
+    text-align: center;
+}
 
 @media (min-width: 50em) {
-  .page-wrapper {
-    display: grid;
-    grid-template-columns: 10% 70% 20%;
-    grid-template-rows: 21% 79%;
-    grid-gap: 2em; }
+    .page-wrapper {
+        display: grid;
+        grid-template-columns: 10% 70% 20%;
+        grid-template-rows: 21% 79%;
+        grid-gap: 2em;
+    }
+    .intro {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .main {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .sidebar {
+        grid-column: 3/4;
+    }
+}
 
+<<<<<<< HEAD
   .intro {
     grid-column: 2/3;
     grid-row: 1/2; }
@@ -30,10 +52,14 @@ header {
       grid-column: 3/4;
   }
   */ }
+=======
+>>>>>>> af780e7963458085ae4e2dd3f354e8f7778d142f
 html {
-  background-image: linear-gradient(#842225, #be2225, #842225); }
+    background-image: linear-gradient(#842225, #be2225, #842225);
+}
 
 body {
+<<<<<<< HEAD
   background-image: url("assets/red-backdrop-small.png"), linear-gradient(#F1D7A7, #f8ebd3, #FCF7ED);
   background-repeat: no-repeat;
   background-position: center bottom; }
@@ -98,7 +124,57 @@ ul {
     fill: #941911; }
   100% {
     fill: #791a09; } }
+=======
+    background-image: url("assets/red-backdrop-large-cropped.png"), linear-gradient(#F1D7A7, #f8ebd3, #FCF7ED);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.sidebar {
+    background-image: url("assets/parchment.jpeg");
+}
+
+
+/* @keyframes moving {
+    0% {
+        fill: #791a09;
+    }
+    10% {
+        fill: #941911;
+    }
+    20% {
+        fill: #ba181b;
+    }
+    30% {
+        fill: #e08e8a;
+    }
+    40% {
+        fill: #d2d6cc;
+    }
+    50% {
+        fill: #f5e9da;
+    }
+    60% {
+        fill: #d2d6cc;
+    }
+    70% {
+        fill: #e08e8a;
+    }
+    80% {
+        fill: #ba181b;
+    }
+    90% {
+        fill: #941911;
+    }
+    100% {
+        fill: #791a09;
+    }
+}
+
+>>>>>>> af780e7963458085ae4e2dd3f354e8f7778d142f
 circle {
-  animation: moving 40s linear infinite; }
+    animation: moving 40s linear infinite;
+} */
+
 
 /*# sourceMappingURL=style.css.map */

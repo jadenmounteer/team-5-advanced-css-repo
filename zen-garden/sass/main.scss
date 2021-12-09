@@ -4,32 +4,58 @@ $top-sky-color: #F1D7A7;
 $middle-sky-color: #f8ebd3;
 $bottom-sky-color: #FCF7ED;
 $bottom-bottom-sky-color: #842225;
-
 // HTML gradient
 $background-top-color: #842225;
 $background-top--middle-color: #da1d24;
-$background-middle-color:#be2225; 
+$background-middle-color:#be2225;
 $background-bottom-color: #842225;
-
-
-// Fonts 
-
-// Breakpoints
-$break-large: 1700px;
-$break-medium: 950px;
-$break-small: 510px;
-
+$black-color: #000000;
+//Typography styles
+$titles-typography: 'Akronim',
+cursive;
+$paragraph-typography: 'Raleway',
+sans-serif;
+$title-side-typography:'Cabin Sketch',
+cursive;
+$paragraph-side-typography: 'Coming Soon',
+cursive;
 html {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     margin: 0 auto;
     max-width: 1000px;
-    padding-bottom: 700px;
+    animation: change 5s;
 }
-    
+
+@keyframes change {
+    0% {
+        color: $bottom-sky-color;
+    }
+    100% {
+        color: $black-color;
+    }
+}
+
+h1,
+h2 {
+    font-family: $titles-typography;
+}
+
+h3 {
+    font-family: $title-side-typography;
+}
+
+p {
+    font-family: $paragraph-typography;
+}
+
+a {
+    font-family: $paragraph-side-typography;
+}
+
 // Import the modularized Sass parials
 @import "layout/mixins.scss";
 @import "layout/grid.scss";
