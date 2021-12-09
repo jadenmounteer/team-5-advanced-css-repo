@@ -19,6 +19,12 @@ $title-side-typography:'Cabin Sketch',
 cursive;
 $paragraph-side-typography: 'Coming Soon',
 cursive;
+
+// Breakpoints
+$break-large: 1700px;
+$break-medium: 950px;
+$break-small: 510px;
+
 html {
     margin: 0;
     padding: 0;
