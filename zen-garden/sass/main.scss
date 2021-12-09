@@ -1,9 +1,15 @@
 // Colors
 $sun-color: #f02228;
-$top-sky-color: #852425;
-$middle-sky-color: #be2225;
-$bottom-sky-color: #da1d24;
+$top-sky-color: #F1D7A7;
+$middle-sky-color: #f8ebd3;
+$bottom-sky-color: #FCF7ED;
+$bottom-bottom-sky-color: #842225;
 
+// HTML gradient
+$background-top-color: #842225;
+$background-top--middle-color: #da1d24;
+$background-middle-color:#be2225; 
+$background-bottom-color: #842225;
 html {
 	margin: 0;
 	padding: 0;
@@ -16,4 +22,7 @@ body {
     
 // Import the modularized Sass parials
 @import "layout/grid.scss";
-@import "background.scss";
+@import "partials/background.scss";
+@import "partials/sidebar.scss";
+@import "partials/animations.scss";
+@import "partials/rising-sun.scss";
