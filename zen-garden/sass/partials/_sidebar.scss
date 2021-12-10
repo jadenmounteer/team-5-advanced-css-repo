@@ -1,25 +1,43 @@
 .sidebar { 
-    //background-image: url("assets/parchment.jpeg");
-    //background-image: linear-gradient($top-sky-color, $middle-sky-color , $bottom-sky-color);
-    background-color: $top-sky-color;
     position: absolute;
     width: 350px;
-    height: 0px;
-    /*
-    left: 0%;
-    top: 340%;
-    */
-    //left: 0%;
-    //top: 340%;
     margin-top: 50px;
-    //margin-left: 5px;
-
-    //background-color: green;
-    padding-bottom: 400px;
-    margin-left: 0%;
-    border-radius: 50%;
-    //text-align: center;
+    display: none;
 }
+
+@media (min-width: 1500px) {
+    .sidebar {
+        display: block;
+        left: -7%;
+
+    }
+}
+
+
+@media (min-width: 1740px) {
+    .sidebar {
+        display: block;
+        left: 0%;
+
+    }
+}
+
+@media (min-width: 1740px) {
+    .sidebar {
+        display: block;
+        left: 0%;
+
+    }
+}
+
+@media (min-width: 2200px) {
+    .sidebar {
+        display: block;
+        left: 10%;
+
+    }
+}
+
 
 ul {
     list-style-type: none;
@@ -31,27 +49,24 @@ ul {
     margin-top: 70px;
 }
 
-@media only screen and (min-width: 400px) {
-    .sidebar {
-        margin-left: 10%;
-    }
-  }
 
-@media only screen and (min-width: 500px) {
-    .sidebar {
-        margin-left: 20%;
-    }
+
+/* Color the bys */
+nav {
+    color: $top-sky-color;
+    margin-top: -25px;
+    
 }
 
-@media only screen and (min-width: 600px) {
-    .sidebar {
-        margin-left: 25%;
-    }
+.design-name,  .designer-name, .next > a, .viewall > a, .view-css > a, .css-resources > a, .zen-faq > a, .zen-submit > a, .zen-translations > a {
+    color: $top-sky-color;
 }
 
-// When the grid appears
-@media (min-width: 50em){
-    .sidebar {
-        
-    }
+.design-selection, .design-archives, .zen-resources {
+    font-size: 2em;
+}
+
+
+ul > .view-css {
+    margin-top: -25px;
 }

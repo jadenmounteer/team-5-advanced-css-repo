@@ -1,38 +1,89 @@
-/* // The rising sun animation
-@keyframes moving {
+@keyframes change {
     0% {
-        fill: rgba(121, 26, 9, 1);
-    }
-    10% {
-        fill: rgba(148, 25, 17, 1);
-    }
-    20% {
-        fill: rgba(186, 24, 27, 1);
-    }
-    30% {
-        fill: rgba(224, 142, 138, 1);
-    }
-    40% {
-        fill: rgb(210, 214, 204);
-    }
-    50% {
-        fill: rgb(245, 233, 218);
-    }
-    60% {
-        fill: rgb(210, 214, 204);
-    }
-    70% {
-        fill: rgba(224, 142, 138, 1);
-    }
-    80% {
-        fill: rgba(186, 24, 27, 1);
-    }
-    90% {
-        fill: rgba(148, 25, 17, 1);
+        color: #FCF7ED;
     }
     100% {
-        fill: rgba(121, 26, 9, 1);
+        color: #000000;
     }
 }
 
- */
+@keyframes change {
+    0% {
+        color: $bottom-sky-color;
+    }
+    100% {
+        color: $black-color;
+    }
+}
+
+@keyframes letterChange {
+    0% {
+        color: #000000;
+        text-shadow: -5px -5px 5px #f0f8ff;
+    }
+    100% {
+        color: #f0f8ff;
+        text-shadow: -5px -5px 5px #000000;
+    }
+}
+
+@keyframes letterChange {
+    0% {
+        color: #000000;
+        text-shadow: -5px -5px 5px #f0f8ff;
+    }
+    100% {
+        color: #f0f8ff;
+        text-shadow: -5px -5px 5px #000000;
+    }
+}
+
+/*** Webkit animations ***/
+@-webkit-keyframes change {
+    0% {
+        color: #FCF7ED;
+    }
+    100% {
+        color: #000000;
+    }
+}
+
+@-webkit-keyframes change {
+    0% {
+        color: $bottom-sky-color;
+    }
+    100% {
+        color: $black-color;
+    }
+}
+
+@-webkit-keyframes letterChange {
+    0% {
+        color: #000000;
+        text-shadow: -5px -5px 5px #f0f8ff;
+    }
+    100% {
+        color: #f0f8ff;
+        text-shadow: -5px -5px 5px #000000;
+    }
+}
+
+@-webkit-keyframes letterChange {
+    0% {
+        color: #000000;
+        text-shadow: -5px -5px 5px #f0f8ff;
+    }
+    100% {
+        color: #f0f8ff;
+        text-shadow: -5px -5px 5px #000000;
+    }
+}
+
+
+
+
+
+
+
+
+
