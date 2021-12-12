@@ -1,0 +1,72 @@
+.sidebar { 
+    position: absolute;
+    width: 350px;
+    margin-top: 50px;
+    display: none;
+}
+
+@media (min-width: 1500px) {
+    .sidebar {
+        display: block;
+        left: -7%;
+
+    }
+}
+
+
+@media (min-width: 1740px) {
+    .sidebar {
+        display: block;
+        left: 0%;
+
+    }
+}
+
+@media (min-width: 1740px) {
+    .sidebar {
+        display: block;
+        left: 0%;
+
+    }
+}
+
+@media (min-width: 2200px) {
+    .sidebar {
+        display: block;
+        left: 10%;
+
+    }
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.sidebar > .wrapper {
+    font-size: 0.65em;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+
+
+/* Color the bys */
+nav {
+    color: $top-sky-color;
+    margin-top: -25px;
+    
+}
+
+.design-name,  .designer-name, .next > a, .viewall > a, .view-css > a, .css-resources > a, .zen-faq > a, .zen-submit > a, .zen-translations > a {
+    color: $top-sky-color;
+}
+
+.design-selection, .design-archives, .zen-resources {
+    font-size: 2em;
+}
+
+
+ul > .view-css {
+    margin-top: -25px;
+}

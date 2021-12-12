@@ -1,0 +1,11 @@
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    animation: change 5s;
+    padding-bottom: 150px;
+
+    @include breakpoint(medium) {
+        padding-bottom: 300px;
+      }
+
+}

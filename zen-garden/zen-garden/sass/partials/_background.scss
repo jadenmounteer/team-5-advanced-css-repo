@@ -1,0 +1,20 @@
+html {
+    background-image: linear-gradient($background-top-color, $background-middle-color, $background-bottom-color);
+}
+
+body {
+    // Make the buildings and the sky background color
+    background-image: url("assets/red-backdrop-small.png"), linear-gradient($top-sky-color, $middle-sky-color , $bottom-sky-color);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    // Resize the image as the screen gets larger
+    @include breakpoint(medium) {
+        background-image: url("assets/red-backdrop-medium.png"), linear-gradient($top-sky-color, $middle-sky-color , $bottom-sky-color);
+      }
+
+    @include breakpoint(large) {
+      background-image: url("assets/red-backdrop-large-cropped.png"), linear-gradient($top-sky-color, $middle-sky-color , $bottom-sky-color);
+    }
+    
+}

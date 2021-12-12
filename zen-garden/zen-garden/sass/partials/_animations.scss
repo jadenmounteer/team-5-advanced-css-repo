@@ -1,0 +1,89 @@
+@keyframes change {
+    0% {
+        color: #FCF7ED;
+    }
+    100% {
+        color: #000000;
+    }
+}
+
+@keyframes change {
+    0% {
+        color: $bottom-sky-color;
+    }
+    100% {
+        color: $black-color;
+    }
+}
+
+@keyframes letterChange {
+    0% {
+        color: #000000;
+        text-shadow: -5px -5px 5px #f0f8ff;
+    }
+    100% {
+        color: #f0f8ff;
+        text-shadow: -5px -5px 5px #000000;
+    }
+}
+
+@keyframes letterChange {
+    0% {
+        color: #000000;
+        text-shadow: -5px -5px 5px #f0f8ff;
+    }
+    100% {
+        color: #f0f8ff;
+        text-shadow: -5px -5px 5px #000000;
+    }
+}
+
+/*** Webkit animations ***/
+@-webkit-keyframes change {
+    0% {
+        color: #FCF7ED;
+    }
+    100% {
+        color: #000000;
+    }
+}
+
+@-webkit-keyframes change {
+    0% {
+        color: $bottom-sky-color;
+    }
+    100% {
+        color: $black-color;
+    }
+}
+
+@-webkit-keyframes letterChange {
+    0% {
+        color: #000000;
+        text-shadow: -5px -5px 5px #f0f8ff;
+    }
+    100% {
+        color: #f0f8ff;
+        text-shadow: -5px -5px 5px #000000;
+    }
+}
+
+@-webkit-keyframes letterChange {
+    0% {
+        color: #000000;
+        text-shadow: -5px -5px 5px #f0f8ff;
+    }
+    100% {
+        color: #f0f8ff;
+        text-shadow: -5px -5px 5px #000000;
+    }
+}
+
+
+
+
+
+
+
+
+

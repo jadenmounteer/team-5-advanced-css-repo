@@ -1,0 +1,129 @@
+// Colors
+$sun-color: #f02228;
+$top-sky-color: #f1d7a7;
+$middle-sky-color: #f8ebd3;
+$bottom-sky-color: #fcf7ed;
+$bottom-bottom-sky-color: #842225;
+// HTML gradient
+$background-top-color: #842225;
+$background-top--middle-color: #da1d24;
+$background-middle-color: #be2225;
+$background-bottom-color: #842225;
+$black-color: #000000;
+//Typography styles
+$titles-typography: "Akronim", cursive;
+$paragraph-typography: "Raleway", sans-serif;
+$title-side-typography: "Cabin Sketch", cursive;
+$paragraph-side-typography: "Coming Soon", cursive;
+
+// Breakpoints
+$break-large: 800px;
+$break-medium: 400px;
+$break-small: 400px;
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 2rem auto 0 auto;
+  font-size: 2rem;
+  animation: letterChange 5s;
+  font-family: "Cinzel", serif;
+  font-weight: 100;
+  background-color: $background-top-color;
+  border: 5px double #f0f8ff;
+  border-radius: 5px 5px 35px 35px;
+  max-width: 450px;
+  height: 40px;
+  color: $bottom-sky-color;
+  text-shadow: -5px -5px 5px #000000;
+}
+
+@media (min-width: 360px) {
+  h1 {
+    margin: 2rem auto 0 auto;
+    font-size: 3rem;
+    max-width: 450px;
+    height: 55px;
+  }
+}
+
+h2 {
+  margin: 0 auto 2rem auto;
+  -webkit-animation: letterChange 5s;
+  animation: letterChange 5s;
+  font-size: 1.2rem;
+  font-family: "Cinzel", serif;
+  font-weight: 100;
+  background-color: $background-top-color;
+  border: 5px double #f0f8ff;
+  border-radius: 20px;
+  max-width: 250px;
+  padding: 0.1rem;
+  color: $bottom-sky-color;
+  text-shadow: -5px -4px 5px #000000;
+}
+
+h3 {
+  color: $bottom-sky-color;
+  background-color: #842225;
+  font-family: "Cinzel", serif;
+  box-shadow: 0px 0px 20px 3px #04133d4d;
+}
+
+.wrapper h3 {
+  box-shadow: none;
+}
+
+@media (min-width: 360px) {
+  h3 {
+    max-width: 250px;
+    text-align: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    margin: 2rem 2.5%;
+    border-radius: 5px;
+  }
+}
+
+p {
+  margin: 0 2.5%;
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+}
+
+p a,
+footer a {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  font-family: "Coming Soon", cursive;
+  text-decoration: none;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+.explanation {
+  margin: 5rem 0 4rem 0;
+}
+
+// Import the modularized Sass parials
+@import "layout/mixins.scss";
+@import "layout/grid.scss";
+@import "partials/footer.scss";
+@import "partials/typography.scss";
+@import "partials/body.scss";
+@import "partials/background.scss";
+@import "partials/sidebar.scss";
+@import "partials/animations.scss";
